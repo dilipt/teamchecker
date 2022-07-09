@@ -7,5 +7,9 @@
   "author": "Dilip Thomas <dthomas84@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": ["core", "web"]
+  "workspaces": ["core", "web"],
+  "scripts": {
+    "dev:web": "yarn --cwd=web dev",
+    "dev:core": "yarn --cwd=core start"
+  }
 }
