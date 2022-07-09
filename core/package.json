@@ -1,0 +1,14 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "spotify health-check server",
+  "main": "index.js",
+  "author": "dilipt",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
